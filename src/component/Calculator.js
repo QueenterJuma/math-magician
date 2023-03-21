@@ -1,17 +1,16 @@
 import React from 'react';
 import './style/Calculator.css';
+import Display from './Display';
 
 const Calculator = () => (
   <div id="calculator">
-    <div className="display">
-      <span>0</span>
-    </div>
+    <Display />
     <div id="keypad">
       <button type="button">AC</button>
       <button type="button">+/-</button>
       <button type="button">%</button>
       <button type="button" className="orange">
-        /
+        ÷
       </button>
       <button type="button">7</button>
       <button type="button">8</button>
