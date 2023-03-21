@@ -1,17 +1,9 @@
-.calculator {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 50px auto;
-  width: 350px;
-  height: 500px;
-  background-color: #444;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
+#calculator {
+  width: 400px;
+  height: 420px;
+  background-color: #858693;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px rgba(99, 77, 77, 0.5);
 }
 
 .display {
@@ -19,25 +11,22 @@
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  height: 20%;
-  padding: 0 20px;
-  background-color: #222;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
+  height: 15%;
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  text-align: end;
 }
 
 .display span {
   font-size: 50px;
 }
 
-.keypad {
+#keypad {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   width: 100%;
-  height: 80%;
-  padding: 20px;
+  height: 87%;
 }
 
 .keypad button {
@@ -48,16 +37,19 @@
   height: 100%;
   border: none;
   background-color: #eee;
-  border-radius: 50%;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: bold;
-  color: #444;
+  color: #222020;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
+.orange {
+  background-color: #f5913f;
+}
+
 .keypad button:hover {
-  background-color: #ddd;
+  background-color: #979090;
 }
 
 .zero {
