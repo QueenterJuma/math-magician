@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Calculator from './component/Calculator';
 
-// eslint-disable-next-line
-class App extends Component {
-  render() {
-    return (
-      <h1 className="h1">Hello World</h1>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Calculator />
+    </div>
+  );
 }
 
 export default App;
