@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Display = () => (
-  <div className="display">
+  <div id="display" className="display">
     <span>0</span>
   </div>
 );
