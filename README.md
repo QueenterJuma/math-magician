@@ -48,6 +48,7 @@ One attachment
 
 - **Setup**
 - **Components**
+- **Events**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +122,6 @@ To run the project, open open the terminal and run npm start,it will be opened i
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [x] **Events**
 - [x] **Fetch data from API**
 - [x] **Full website**
 - [x] **ests (pair programming)**
