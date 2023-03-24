@@ -36,6 +36,7 @@ const FetchQuote = () => {
 
   return (
     <div className="outPut">
+      <h1>Quote of the day</h1>
       {result && <span className="author">{result.quote}</span>}
       <div>{result && <span className="author">{result.author}</span>}</div>
     </div>
