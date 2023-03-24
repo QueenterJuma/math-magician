@@ -3,21 +3,22 @@ import './style/Calculator.css';
 import calculate from '../Logic/calculate';
 
 const Calculator = () => {
-  const [total, setTotal] = useState(null);
-  const [next, setNext] = useState(null);
+  const [total, setTotal] = useState(0);
   const [operation, setOperation] = useState(null);
+  const [next, setNext] = useState(null);
   const handleClick = (e) => {
-    const result = calculate({ total, next, operation }, e.target.innerText);
+    const result = calculate({ total, operation, next }, e.target.textContent);
     setTotal(result.total);
-    setNext(result.next);
     setOperation(result.operation);
+    setNext(result.next);
   };
+
   return (
     <div id="calculator">
       <div className="display">
         {total}
-        {next}
         {operation}
+        {next}
       </div>
       <div id="keypad">
         <button onClick={handleClick} type="button">
