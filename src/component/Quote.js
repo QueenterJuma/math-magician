@@ -22,7 +22,6 @@ const FetchQuote = () => {
         });
         const json = await response.json();
         setResult(json[0]);
-        console.log(result);
       } catch (error) {
         setError(true);
       }
@@ -31,13 +30,13 @@ const FetchQuote = () => {
     getQuote();
   }, []);
 
-  if (loading) return <div>Loading...!</div>;
-  if (error) return <div>Sorry, there is an error!</div>;
+  if (loading) return <div className="loading">Loading...!</div>;
+  if (error) return <div className="error">Sorry, there is an error!</div>;
 
   return (
-    <div className="outPut">
-      <h1>Quote of the day</h1>
-      {result && <span className="author">{result.quote}</span>}
+    <div className="output">
+      <h3 className="quote-heading">Quote of the day</h3>
+      {result && <span className="quote">{result.quote}</span>}
       <div>{result && <span className="author">{result.author}</span>}</div>
     </div>
   );
