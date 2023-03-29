@@ -9,7 +9,7 @@ describe('Navigation', () => {
       .create(
         <BrowserRouter>
           <Navigation />
-        </BrowserRouter>
+        </BrowserRouter>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
