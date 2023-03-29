@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import operate from '../logic/operate';
 
 describe('Test calculate operations', () => {
