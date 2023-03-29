@@ -133,6 +133,8 @@ To run the project, open open the terminal and run npm start,it will be opened i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Colaborators
+- @ShiroYaksha90 
 
 ## 🤝 Contributing <a name="contributing"></a>
 
