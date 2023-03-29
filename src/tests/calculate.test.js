@@ -1,4 +1,4 @@
-import calculate from '../Logic/calculate.js';
+import calculate from '../Logic/calculate';
 
 describe('test calculate function', () => {
   test('it should return sum output', () => {
