@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import FetchQuote from '../component/Quote';
+import FetchQuote from '../component/Quote.js';
 
 describe('FetchQuote', () => {
   it('renders correctly', () => {

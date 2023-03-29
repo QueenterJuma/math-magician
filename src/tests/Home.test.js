@@ -1,7 +1,7 @@
 import TestRenderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Home from '../component/Home';
+import Home from '../component/Home.js';
 
 describe('test home component', () => {
   it('should render correctly', () => {
