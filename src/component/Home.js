@@ -4,7 +4,7 @@ const Home = () => (
   <div className="home">
     <h2 className="heading">Welcome to Our Page!</h2>
     <p className="paragraph">
-      Math Magic Calculator is a versatile and powerful tool that can handle 
+      Math Magic Calculator is a versatile and powerful tool that can handle
       wide range of mathematical operations with ease. Its user-friendly
       interface and intuitive design make it an ideal choice for students,
       teachers, engineers, and anyone who needs to perform mathematical
