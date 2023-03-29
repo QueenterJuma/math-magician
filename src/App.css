@@ -1,21 +1,3 @@
-/* .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 2em;
-}
-
-.fetchQuotes {
-  width: 40%;
-}
-
-.calculatorContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
 * {
   padding: 0;
   margin: 0;
