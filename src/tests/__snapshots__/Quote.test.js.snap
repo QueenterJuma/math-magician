@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FetchQuote renders correctly 1`] = `
+<div
+  className="output"
+>
+  <h3
+    className="quote-heading"
+  >
+    Quote of the day
+  </h3>
+  <div />
+</div>
+`;
