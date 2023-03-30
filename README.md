@@ -68,7 +68,7 @@ One attachment
  
 <!-- LIVE DEMO -->
  
-## 🚀 Live Demo <a name="[Coming soon...]()"></a>
+## 🚀 Live Demo <a name="[https://magic-calculator-app.onrender.com]()"></a>
  
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
