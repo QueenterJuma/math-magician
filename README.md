@@ -65,12 +65,11 @@ One attachment
 </details>
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
-<!-- LIVE DEMO -->
- 
-## 🚀 Live Demo <a name=(https://magic-calculator-app.onrender.com)></a>
- 
- 
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://magic-calculator-app.onrender.com)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
 <!-- GETTING STARTED -->
